@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="LEAP - Celebrating AAPI voices through interviews and stories.">
+    <title>LEAP | AAPI Voices & Stories</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo"><span class="logo-icon">🌸</span><span>LEAP</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#interviews" class="nav-link">Interviews</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-btn" id="mobile-menu-btn"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <span class="hero-badge">✨ Celebrating AAPI Heritage</span>
+            <h1><span>Amplifying</span><span class="gradient-text">AAPI Voices</span><span>One Story at a Time</span></h1>
+            <p>Discover powerful interviews and authentic stories from Asian American and Pacific Islander communities.</p>
+            <div class="hero-actions">
+                <a href="#interviews" class="btn btn-primary">Watch Interviews ▶</a>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat"><span class="stat-num">150+</span><span>Interviews</span></div>
+                <div class="stat"><span class="stat-num">50+</span><span>Communities</span></div>
+                <div class="stat"><span class="stat-num">25K+</span><span>Viewers</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <span class="section-tag">Our Mission</span>
+            <h2>Preserving Stories, Building Bridges</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p class="lead">LEAP is dedicated to amplifying Asian American and Pacific Islander voices through compelling interviews and storytelling.</p>
+                    <p>Our platform serves as a digital archive of experiences, struggles, triumphs, and dreams from diverse AAPI communities across generations.</p>
+                    <div class="features">
+                        <div class="feature"><span>🎬</span><div><h4>Video Interviews</h4><p>In-depth conversations with AAPI leaders</p></div></div>
+                        <div class="feature"><span>📚</span><div><h4>Written Stories</h4><p>Personal narratives exploring identity</p></div></div>
+                        <div class="feature"><span>🌏</span><div><h4>Cultural Education</h4><p>Resources for AAPI history</p></div></div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=600&fit=crop" alt="Community">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="interviews" id="interviews">
+        <div class="container">
+            <span class="section-tag">Featured</span>
+            <h2>Latest Interviews</h2>
+            <div class="filter-tabs">
+                <button class="filter-tab active" data-filter="all">All</button>
+                <button class="filter-tab" data-filter="identity">Identity</button>
+                <button class="filter-tab" data-filter="immigration">Immigration</button>
+                <button class="filter-tab" data-filter="culture">Culture</button>
+            </div>
+            <div class="interviews-grid">
+                <article class="card" data-category="identity">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">12:34</span></div>
+                    <div class="card-body"><span class="tag">Identity</span><h3>Finding My Voice as a Korean American</h3><p>Dr. Sarah Kim shares her journey of embracing both cultures.</p></div>
+                </article>
+                <article class="card" data-category="immigration">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">18:22</span></div>
+                    <div class="card-body"><span class="tag">Immigration</span><h3>From Saigon to Silicon Valley</h3><p>Michael Tran reflects on his family's journey as Vietnamese refugees.</p></div>
+                </article>
+                <article class="card" data-category="culture">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">15:47</span></div>
+                    <div class="card-body"><span class="tag">Culture</span><h3>Preserving Japanese Traditions Through Art</h3><p>Artist Aiko Nakamura discusses ancestral practices in art.</p></div>
+                </article>
+                <article class="card" data-category="identity">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">21:15</span></div>
+                    <div class="card-body"><span class="tag">Leadership</span><h3>Breaking Barriers in Corporate America</h3><p>CEO David Park shares strategies for AAPI professionals.</p></div>
+                </article>
+                <article class="card" data-category="culture">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">14:08</span></div>
+                    <div class="card-body"><span class="tag">Identity</span><h3>Navigating Multiracial Identity</h3><p>Priya Sharma explores growing up with Indian and Chinese heritage.</p></div>
+                </article>
+                <article class="card" data-category="culture">
+                    <div class="card-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">19:33</span></div>
+                    <div class="card-body"><span class="tag">Culture</span><h3>Hawaiian Heritage in the Modern World</h3><p>Keoni Makua discusses revitalizing Native Hawaiian language.</p></div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="newsletter">
+        <div class="container">
+            <h2>Stay Connected</h2>
+            <p>Get the latest interviews and stories delivered to your inbox.</p>
+            <form class="newsletter-form"><input type="email" placeholder="Enter your email" required><button class="btn btn-primary">Subscribe</button></form>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2>Let's Connect</h2>
+                    <p>Have a story to share or want to collaborate? We'd love to hear from you.</p>
+                    <div class="contact-item"><span>📧</span><a href="mailto:hello@leapstories.org">hello@leapstories.org</a></div>
+                    <div class="contact-item"><span>📍</span><span>San Francisco, California</span></div>
+                    <div class="social-links">
+                        <a href="#" class="social">📷</a>
+                        <a href="#" class="social">🐦</a>
+                        <a href="#" class="social">▶️</a>
+                        <a href="#" class="social">💼</a>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group"><label>Name</label><input type="text" required></div>
+                    <div class="form-group"><label>Email</label><input type="email" required></div>
+                    <div class="form-group"><label>Subject</label><select required><option value="">Select topic</option><option>Submit Story</option><option>Interview Request</option><option>Partnership</option><option>General</option></select></div>
+                    <div class="form-group"><label>Message</label><textarea rows="4" required></textarea></div>
+                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div><a href="#" class="logo"><span class="logo-icon">🌸</span><span>LEAP</span></a><p>Amplifying AAPI voices through storytelling.</p></div>
+                <div><h4>Explore</h4><a href="#interviews">Interviews</a><a href="#about">About</a><a href="#contact">Contact</a></div>
+                <div><h4>Resources</h4><a href="#">Submit Story</a><a href="#">Press Kit</a><a href="#">FAQ</a></div>
+                <div><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a></div>
+            </div>
+            <div class="footer-bottom"><p>© 2024 LEAP. Made with ❤️ for the AAPI community.</p></div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

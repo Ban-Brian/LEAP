@@ -3,151 +3,299 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="LEAP - Celebrating AAPI voices through interviews and stories.">
-    <title>LEAP | AAPI Voices & Stories</title>
+    <meta name="description" content="LEAP Emerge Fellowship — Empowering AAPI student leaders.">
+    <title>LEAP Emerge Fellowship</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+    <!-- Navigation -->
     <nav class="navbar" id="navbar">
         <div class="nav-container">
-            <a href="#" class="logo"><span class="logo-icon">🌸</span><span>LEAP</span></a>
-            <ul class="nav-links">
-                <li><a href="#home" class="nav-link active">Home</a></li>
+            <a href="#" class="logo">LEAP <span class="logo-accent">Emerge</span></a>
+            <ul class="nav-links" id="nav-links">
                 <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#fellows" class="nav-link">Fellows</a></li>
                 <li><a href="#interviews" class="nav-link">Interviews</a></li>
-                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <button class="mobile-menu-btn" id="mobile-menu-btn"><span></span><span></span><span></span></button>
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <span></span><span></span><span></span>
+            </button>
         </div>
     </nav>
 
-    <section class="hero" id="home">
-        <div class="hero-bg"></div>
-        <div class="hero-content">
-            <span class="hero-badge">✨ Celebrating AAPI Heritage</span>
-            <h1><span>Amplifying</span><span class="gradient-text">AAPI Voices</span><span>One Story at a Time</span></h1>
-            <p>Discover powerful interviews and authentic stories from Asian American and Pacific Islander communities.</p>
-            <div class="hero-actions">
-                <a href="#interviews" class="btn btn-primary">Watch Interviews ▶</a>
-                <a href="#about" class="btn btn-secondary">Learn More</a>
-            </div>
-            <div class="hero-stats">
-                <div class="stat"><span class="stat-num">150+</span><span>Interviews</span></div>
-                <div class="stat"><span class="stat-num">50+</span><span>Communities</span></div>
-                <div class="stat"><span class="stat-num">25K+</span><span>Viewers</span></div>
-            </div>
-        </div>
-    </section>
-
+    <!-- About Section -->
     <section class="about" id="about">
         <div class="container">
-            <span class="section-tag">Our Mission</span>
-            <h2>Preserving Stories, Building Bridges</h2>
-            <div class="about-grid">
-                <div class="about-text">
-                    <p class="lead">LEAP is dedicated to amplifying Asian American and Pacific Islander voices through compelling interviews and storytelling.</p>
-                    <p>Our platform serves as a digital archive of experiences, struggles, triumphs, and dreams from diverse AAPI communities across generations.</p>
-                    <div class="features">
-                        <div class="feature"><span>🎬</span><div><h4>Video Interviews</h4><p>In-depth conversations with AAPI leaders</p></div></div>
-                        <div class="feature"><span>📚</span><div><h4>Written Stories</h4><p>Personal narratives exploring identity</p></div></div>
-                        <div class="feature"><span>🌏</span><div><h4>Cultural Education</h4><p>Resources for AAPI history</p></div></div>
-                    </div>
+            <h1>LEAP Emerge Fellowship</h1>
+            <p class="about-lead">A 6-month fellowship program designed to empower rising young leaders by providing college students with tangible leadership skills, introductions to a diverse range of industries, personalized mentorship, and individualized support.</p>
+            <div class="about-details">
+                <div class="detail-card">
+                    <h3>Leadership Development</h3>
+                    <p>Build tangible leadership skills through workshops, trainings, and hands-on experiences that prepare fellows for professional success.</p>
                 </div>
-                <div class="about-image">
-                    <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=500&h=600&fit=crop" alt="Community">
+                <div class="detail-card">
+                    <h3>Mentorship & Community</h3>
+                    <p>Connect with experienced AAPI professionals across industries for personalized guidance, career advice, and network building.</p>
+                </div>
+                <div class="detail-card">
+                    <h3>Community Impact</h3>
+                    <p>Research and address issues facing Asian and Pacific Islander communities through collaborative projects that drive meaningful change.</p>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Fellows Section -->
+    <section class="fellows" id="fellows">
+        <div class="container">
+            <h2>Meet the Fellows</h2>
+            <p class="section-subtitle">Our cohort of extraordinary leaders representing diverse AAPI communities.</p>
+
+            <div class="fellows-grid">
+
+                <!-- Annie Chang -->
+                <div class="fellow-card" id="fellow-annie">
+                    <div class="fellow-photo">
+                        <!-- Replace this div with: <img src="photos/annie.jpg" alt="Annie Chang"> -->
+                        <div class="photo-placeholder"><span>AC</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Annie Chang <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Portland, Oregon</p>
+                        <p class="bio">Originally from Portland, Oregon, Annie is a student at Williams College, majoring in History and American Studies with a concentration in Asian American Studies. She has studied in Korea as a NSLI-Y scholarship recipient. Experiences also include serving as a mental health crisis call counselor, writer for The Immigrant Story, and policy intern for the Asian American Federation. Annie is also an avid cellist and a member of the Williams Women's Varsity Squash team.</p>
+                    </div>
+                </div>
+
+                <!-- Arryn Berroya -->
+                <div class="fellow-card" id="fellow-arryn">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>AB</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Arryn Berroya <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Baltimore, Maryland</p>
+                        <p class="bio">Arryn is a Filipina American born in Baltimore, Maryland with strong connections to her hometowns, Laguna and Malabon Philippines. She is studying to graduate in Spring 2026 to attain a B.S. in Biological Sciences: Cell Biology & Genetics while also double minoring in Asian American Studies and Health, Humanities, & Medicine at the University of Maryland College Park (UMD). As an aspiring physician, Arryn works as a medical assistant at her local clinic and as a research assistant at the University of Maryland Baltimore School of Medicine studying brain metastasis regulation. She is extremely passionate about her roots as Arryn is involved in Filipino/Filipino-American research on history and psychology and Filipino advocacy. Arryn is also an editor for UMD's AAST Literary Journal "Fresh Pages" and for the Filipino American National Historical Society Journal. In the midst of juggling her interests both in Filipino and medicine, Arryn enjoys the visual arts, bullet journaling, smiskis, listening to OPM and kpop, and spending time with her 13 cousins.</p>
+                    </div>
+                </div>
+
+                <!-- Asia Chang -->
+                <div class="fellow-card" id="fellow-asia">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>AC</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Asia Chang <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Los Angeles, California</p>
+                        <p class="bio">Asia is a Korean/Chinese American born and raised in Los Angeles, California. She is a rising senior at the University of Southern California, majoring in the B.S. in Arts, Technology, and the Business of Innovation with an emphasis on Marketing and Business Development. She has previous industry experience in the non-profit sectors like the Pasadena Tournament of Roses, working directly on aspects of the Annual Rose Parade and Rose Bowl Game, and is currently a Project Manager for a fashion company called the Black Design Collective. She is passionate about breaking barriers, challenging stigmas, and being an inspiration to those around her as a AAPI woman. In her free time, she loves running, doing yoga, creating gel nail art, reviewing restaurants, amateur weightlifting, and dabbling in brazilian jiu jitsu.</p>
+                    </div>
+                </div>
+
+                <!-- Brian Butler -->
+                <div class="fellow-card" id="fellow-brian">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>BB</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Brian Butler <span class="pronouns">(he/him)</span></h3>
+                        <p class="origin">San Diego, California</p>
+                        <p class="bio">Brian is a Samoan-American student and data analyst for the American Samoa Government but has roots in San Diego, California. He is studying Applied Statistics at George Mason University with the vision of harnessing the power of data for positive change and equity. His experience spans research with pre-trial processes, building websites for literary clubs, and NGO chapter development. Brian loves to study machine learning, visit museums, play chess, read classic novels, and learning at least one new thing a day.</p>
+                    </div>
+                </div>
+
+                <!-- David Hoang -->
+                <div class="fellow-card" id="fellow-david">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>DH</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>David Hoang <span class="pronouns">(he/him)</span></h3>
+                        <p class="origin">Bay Area, California</p>
+                        <p class="bio">David is a Vietnamese American from the Bay Area currently studying International Business at UC San Diego. He has held roles across policy research, compliance, and business development, including internships at the Bipartisan Policy Center, UCSD Export Control Office, and Thrive Scholars. His interests lie at the intersection of social impact, global strategy, and representation, especially for underserved AAPI communities. Outside of work, David runs a food blog (@yummydavids), advocates for small immigrant-owned businesses, and grew up helping his dad run a birdcage shop, an experience that sparked his interest in entrepreneurship and community storytelling.</p>
+                    </div>
+                </div>
+
+                <!-- Devin Jiang -->
+                <div class="fellow-card" id="fellow-devin">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>DJ</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Devin Jiang <span class="pronouns">(he/him)</span></h3>
+                        <p class="origin">New York City</p>
+                        <p class="bio">Devin is an aspiring consultant based in New York City. He is a finance student at CUNY Baruch College, with an expected graduation date of May 2026. He has experience in the education, financial services, technology, and professional services industries. His passions include social equity, investing, food, tea, traveling, and spending time with friends.</p>
+                    </div>
+                </div>
+
+                <!-- Enne Kim -->
+                <div class="fellow-card" id="fellow-enne">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>EK</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Enne Kim <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Georgia</p>
+                        <p class="bio">Enne is a Korean-American student in her fourth year at the University of Pennsylvania, studying Creative Writing and International Relations. Originally from Georgia, she has strong ties to Korean communities in Atlanta and her surrounding neighborhoods. She's strongly interested in foreign policy and has previously interned with Pacific Atrocities Education, Troutman Pepper, Foreign Policy Research Institute, and various research programs. Her passions are in decolonizing Korean-American identity, immigrant advocacy, language learning, spending too much money on souvenirs, and finding the best matcha cafe in every new city she travels to.</p>
+                    </div>
+                </div>
+
+                <!-- Ferdinand Virtudes -->
+                <div class="fellow-card" id="fellow-ferdinand">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>FV</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Ferdinand Virtudes <span class="pronouns">(he/him)</span></h3>
+                        <p class="origin">Rochester, New York</p>
+                        <p class="bio">Ferdinand is a Filipino-American completing a Bachelor's in Management Information Systems at Rochester Institute of Technology (expected Fall 2025). Currently serving as both a Data Architect Intern in aerospace/defense and Research Assistant, he is building expertise in data science applications across industries. His technical work is complemented by leadership roles in student organizations and community initiatives. He enjoys going to the gym, indoor rock climbing, table tennis, portrait photography, and volunteering at animal shelters.</p>
+                    </div>
+                </div>
+
+                <!-- Ian Eusebio -->
+                <div class="fellow-card" id="fellow-ian">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>IE</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Ian Eusebio <span class="pronouns">(he/they)</span></h3>
+                        <p class="origin">San Diego, California</p>
+                        <p class="bio">Ian is a Filipino-American student at California State Polytechnic University, Pomona earning his B.S. in Computer Information Systems where he also works as a Peer Advisor Intern for the Career Center. He graduated from San Diego Miramar College with an A.S. in Business Administration and served as President of the Filipino American Student Association. His previous work experience includes assisting in student services, human resources in manufacturing, and IT for nonprofits. He is passionate about using technology to support communities, improve access to information, and drive positive social impact.</p>
+                    </div>
+                </div>
+
+                <!-- Jacqueline Pham -->
+                <div class="fellow-card" id="fellow-jacqueline">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>JP</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Jacqueline Pham <span class="pronouns">(they/she)</span></h3>
+                        <p class="origin">San José, California</p>
+                        <p class="bio">Jacqueline (they/she) is a queer Vietnamese-American student and organizer from San José, California. She currently studies Sociology and Ethnic Studies at the University of California, San Diego. They have been grounded in social justice work since high school, working in the areas of racial justice, gender-based violence, and queer liberation. They are passionate about uplifting community voices and hope to pursue a career focused on curating community-centered research towards collective liberation.</p>
+                    </div>
+                </div>
+
+                <!-- Joe Rhee -->
+                <div class="fellow-card" id="fellow-joe">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>JR</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Joe Rhee <span class="pronouns">(he/they)</span></h3>
+                        <p class="origin">Pasadena, California</p>
+                        <p class="bio">Joe is an American-born Korean living in Pasadena, California but raised in Little Rock, Arkansas. He is a senior at Vanderbilt majoring in Human and Organizational Development and minoring in Data Science and Asian American Studies, president of the Asian American Student Association and co-director of the Asian American Advocacy Project. This summer, Joe interned as a Strategy and Operations Analyst at Huron, and this fall will be a Community Development Intern at API Mid TN. He loves buying overpriced lattes, YouTube essays, personal nutrition, and mixed martial arts.</p>
+                    </div>
+                </div>
+
+                <!-- Keana Howard -->
+                <div class="fellow-card" id="fellow-keana">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>KH</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Keana Howard <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Vallejo, California</p>
+                        <p class="bio">Keana is a Chamorro, Filipino, and African-American young professional raised in Vallejo, California, with roots in Guam and Texas. She is a senior at Louisiana State University pursuing a B.S. in Environmental Management Systems and a B.A. in Anthropology. Keana has experience across industry and academia, including undergraduate sustainability research in LSU's Water Quality Lab and a self-led project on service learning and STEM communication. She has interned with TRC Companies in engineering and environmental remediation, supported local Bay Area real estate firms, and worked abroad in Portugal with NGO SOS Animal as a wildlife intern. Her passions lie in sustainability, cultural preservation, volunteering, 70's music, food, and plant collecting.</p>
+                    </div>
+                </div>
+
+                <!-- Melody Luo -->
+                <div class="fellow-card" id="fellow-melody">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>ML</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Melody Luo <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Philadelphia, Pennsylvania</p>
+                        <p class="bio">Melody Luo is a rising senior at the University of Pennsylvania majoring in Political Science and English and minoring in Legal Studies, History, and Urban Education Policy. She has previously worked as a Reproductive Justice Leadership Intern with the National Asian Pacific American Women's Forum and as a Programs Intern at Swipe Out Hunger, where she developed and taught a curriculum focused on food justice and sustainability. Most recently, she joined the Foundation for Individual Rights and Expression and Fair Districts PA as a summer intern. On campus, Melody is a part of Penn Mock Trial, the Undergraduate Assembly, and PennYo (Penn's premier Chinese A Cappella Group). She also enjoys hiking/camping, watching extraordinarily long YouTube video essays, visiting coffee shops, and attempting to check off her TBR list in her free time.</p>
+                    </div>
+                </div>
+
+                <!-- Raniyah Le'iato -->
+                <div class="fellow-card" id="fellow-raniyah">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>RL</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Raniyah Le'iato <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">American Samoa / Fort Jackson, SC</p>
+                        <p class="bio">Raniyah is originally from American Samoa but currently resides at Fort Jackson, South Carolina, due to her family's military background. She is a student at the University of Maryland, double majoring in Public Health Science and Neuroscience. Her current research focuses on using antimicrobial compounds found in cruciferous vegetables to fight surgical site infections, with a growing interest in incorporating homeopathic solutions into hospital care practices. Beyond that, Raniyah stays active on campus and in her community. She works as a supervisor at her university's gym, serves as the Asian-Pacific Islander intern for the Office of Multicultural Involvement & Community Advocacy, and holds a leadership role as the Financial Officer for "Hearts for Homeless," a student-run organization dedicated to supporting cardiac health for underserved communities. Her passions are rooted in uplifting underserved communities (especially in the Pacific Islands), advancing meaningful and innovative medical research, playing on the PS5, being open to try new things (especially food), playing volleyball, watching football (go Raiders!), and always repping 684.</p>
+                    </div>
+                </div>
+
+                <!-- Sabrina Guo -->
+                <div class="fellow-card" id="fellow-sabrina">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>SG</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Sabrina Guo <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Philadelphia, Pennsylvania</p>
+                        <p class="bio">Sabrina is a Chinese-American based in Philadelphia, Pennsylvania. She is a rising senior at the University of Pennsylvania studying Health and Societies. She has previous industry experience as a Core Laboratory Operations Intern at Cabaletta Bio, Regulatory Affairs Policy, Intelligence, & Medical Writing Intern at Spark Therapeutics (now Roche), and she is currently a research assistant for Dr. Eric Roberts. Her passions lie in healthcare equity, journaling, singing, and taking walks by the river. She hopes to pursue a career at the intersection of health policy and social justice.</p>
+                    </div>
+                </div>
+
+                <!-- Shovik Saha -->
+                <div class="fellow-card" id="fellow-shovik">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>SS</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Shovik Saha <span class="pronouns">(he/him)</span></h3>
+                        <p class="origin">Wellington, Florida</p>
+                        <p class="bio">Shovik is a Bangladeshi-American from Wellington, Florida. He is a senior pursuing a degree in Interdisciplinary Social Sciences at Florida State University with concentrations in Geography and Public Administration, and is also completing the Global Citizenship Certificate. A proud first-generation college student, Shovik has participated in programs including the Yale Conservation Scholars Program, the US-UK Fulbright Summer Institute at the University of Exeter, and the Critical Language Scholarship for Hindi. He has professional experience in legislative advocacy, environmental justice, and community engagement. His passions include climate policy, exploring new cuisines, and traveling.</p>
+                    </div>
+                </div>
+
+                <!-- Tenzin Gyaldatsang -->
+                <div class="fellow-card" id="fellow-tenzin">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>TG</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Tenzin Gyaldatsang <span class="pronouns">(he/him)</span></h3>
+                        <p class="origin">Minneapolis, Minnesota</p>
+                        <p class="bio">Tenzin is a Tibetan-American based in Minneapolis, Minnesota, and a rising senior at the University of Minnesota – Twin Cities, majoring in Kinesiology. His previous work experience includes serving as an Aquatic Park Manager, Hibachi server at Osaka Seafood Steakhouse, and To-Go/Expo staff at Jun Szechuan Kitchen. Currently, he works as an Emergency Department Medical Scribe with EPPA Health. Outside of academics and work, Tenzin volunteers as a traditional Tibetan dance instructor for MN Dokham Chushi Gangdruk. In his free time, he enjoys weightlifting, playing basketball, and writing.</p>
+                    </div>
+                </div>
+
+                <!-- Victoria Veak -->
+                <div class="fellow-card" id="fellow-victoria">
+                    <div class="fellow-photo">
+                        <div class="photo-placeholder"><span>VV</span></div>
+                    </div>
+                    <div class="fellow-info">
+                        <h3>Victoria Veak <span class="pronouns">(she/her)</span></h3>
+                        <p class="origin">Claremont, California</p>
+                        <p class="bio">Victoria is a Cambodian American senior at Pomona College, double majoring in Sociology and Asian American Studies. Born and raised in Ohio and now based in Claremont, California, she has founded the Claremont Colleges' Khmer Students Association, conducted research with Marshallese and CHamoru communities in Southern California, and was a mentor in the Asian American Mentorship Program at her college. She is passionate about social empowerment, healing through storytelling, and finds joy in sewing, antiquing, and period pieces.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Interviews Section (blank for now) -->
     <section class="interviews" id="interviews">
         <div class="container">
-            <span class="section-tag">Featured</span>
-            <h2>Latest Interviews</h2>
-            <div class="filter-tabs">
-                <button class="filter-tab active" data-filter="all">All</button>
-                <button class="filter-tab" data-filter="identity">Identity</button>
-                <button class="filter-tab" data-filter="immigration">Immigration</button>
-                <button class="filter-tab" data-filter="culture">Culture</button>
-            </div>
-            <div class="interviews-grid">
-                <article class="card" data-category="identity">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">12:34</span></div>
-                    <div class="card-body"><span class="tag">Identity</span><h3>Finding My Voice as a Korean American</h3><p>Dr. Sarah Kim shares her journey of embracing both cultures.</p></div>
-                </article>
-                <article class="card" data-category="immigration">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">18:22</span></div>
-                    <div class="card-body"><span class="tag">Immigration</span><h3>From Saigon to Silicon Valley</h3><p>Michael Tran reflects on his family's journey as Vietnamese refugees.</p></div>
-                </article>
-                <article class="card" data-category="culture">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">15:47</span></div>
-                    <div class="card-body"><span class="tag">Culture</span><h3>Preserving Japanese Traditions Through Art</h3><p>Artist Aiko Nakamura discusses ancestral practices in art.</p></div>
-                </article>
-                <article class="card" data-category="identity">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">21:15</span></div>
-                    <div class="card-body"><span class="tag">Leadership</span><h3>Breaking Barriers in Corporate America</h3><p>CEO David Park shares strategies for AAPI professionals.</p></div>
-                </article>
-                <article class="card" data-category="culture">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">14:08</span></div>
-                    <div class="card-body"><span class="tag">Identity</span><h3>Navigating Multiracial Identity</h3><p>Priya Sharma explores growing up with Indian and Chinese heritage.</p></div>
-                </article>
-                <article class="card" data-category="culture">
-                    <div class="card-img"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=280&fit=crop" alt=""><span class="play">▶</span><span class="time">19:33</span></div>
-                    <div class="card-body"><span class="tag">Culture</span><h3>Hawaiian Heritage in the Modern World</h3><p>Keoni Makua discusses revitalizing Native Hawaiian language.</p></div>
-                </article>
+            <h2>Interviews</h2>
+            <p class="section-subtitle">Fellow interviews will be added here soon.</p>
+            <div class="interviews-placeholder">
+                <p>Coming Soon</p>
             </div>
         </div>
     </section>
 
-    <section class="newsletter">
-        <div class="container">
-            <h2>Stay Connected</h2>
-            <p>Get the latest interviews and stories delivered to your inbox.</p>
-            <form class="newsletter-form"><input type="email" placeholder="Enter your email" required><button class="btn btn-primary">Subscribe</button></form>
-        </div>
-    </section>
-
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="contact-grid">
-                <div class="contact-info">
-                    <span class="section-tag">Get in Touch</span>
-                    <h2>Let's Connect</h2>
-                    <p>Have a story to share or want to collaborate? We'd love to hear from you.</p>
-                    <div class="contact-item"><span>📧</span><a href="mailto:hello@leapstories.org">hello@leapstories.org</a></div>
-                    <div class="contact-item"><span>📍</span><span>San Francisco, California</span></div>
-                    <div class="social-links">
-                        <a href="#" class="social">📷</a>
-                        <a href="#" class="social">🐦</a>
-                        <a href="#" class="social">▶️</a>
-                        <a href="#" class="social">💼</a>
-                    </div>
-                </div>
-                <form class="contact-form">
-                    <div class="form-group"><label>Name</label><input type="text" required></div>
-                    <div class="form-group"><label>Email</label><input type="email" required></div>
-                    <div class="form-group"><label>Subject</label><select required><option value="">Select topic</option><option>Submit Story</option><option>Interview Request</option><option>Partnership</option><option>General</option></select></div>
-                    <div class="form-group"><label>Message</label><textarea rows="4" required></textarea></div>
-                    <button type="submit" class="btn btn-primary btn-full">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
+    <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-grid">
-                <div><a href="#" class="logo"><span class="logo-icon">🌸</span><span>LEAP</span></a><p>Amplifying AAPI voices through storytelling.</p></div>
-                <div><h4>Explore</h4><a href="#interviews">Interviews</a><a href="#about">About</a><a href="#contact">Contact</a></div>
-                <div><h4>Resources</h4><a href="#">Submit Story</a><a href="#">Press Kit</a><a href="#">FAQ</a></div>
-                <div><h4>Legal</h4><a href="#">Privacy</a><a href="#">Terms</a></div>
-            </div>
-            <div class="footer-bottom"><p>© 2024 LEAP. Made with ❤️ for the AAPI community.</p></div>
+            <p>&copy; 2025 LEAP Emerge Fellowship. Leadership Education for Asian Pacifics.</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>

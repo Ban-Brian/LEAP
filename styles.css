@@ -150,6 +150,12 @@ h3 {
     line-height: 1.8;
 }
 
+/* Featured Video */
+.featured-video {
+    margin-bottom: 2.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
 /* Three program goal cards */
 .about-details {
     display: grid;
